@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="snake.css">
   <style>
     #chunk-game {
       background-color: #ABEBC6;
@@ -11,10 +12,16 @@
   </style>
 </head>
 <body>
-  <h1 style="text-align:center;">Michaela's Wonderful Snake Game!</h1>
-  <canvas id="chunk-game" height="600" width="800"></canvas>
+  <div id="resize-body-div">
+    <h1 style="text-align:center;">Michaela's Wonderful Snake Game!</h1>
+    <canvas id="chunk-game" height="600" width="800"></canvas>
+    <div id="button-div">
+    <button type="button"
+  onclick="location.reload()">Play again!</button>
+    </div>
 
-  <script type="text/javascript" src="chunk.js"></script>
-  <script type="text/javascript" src="snake.js"></script>
+    <script type="text/javascript" src="chunk.js"></script>
+    <script type="text/javascript" src="snake.js"></script>
+  </div>
 </body>
 </html>

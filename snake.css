@@ -1,0 +1,32 @@
+
+
+body{
+  background-color: white;
+}
+
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+#resize-body-div {
+}
+
+#button-div{
+  text-align: center;
+}
+
+button{
+  background-color:blue; /* Green */
+    border: solid black;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
